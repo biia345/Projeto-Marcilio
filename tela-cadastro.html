@@ -30,20 +30,20 @@
                 <div class="textfield">
                     <input type="password" name="cpf" placeholder="Digite sua Senha">
                 </div>
-                <form action="#">
-                    <fieldset>
-                        <legend>Selecione seu tipo de serviço:</legend>
-                        <input type="checkbox" name="check" id="checkbox1" value="Cliente" checked>
-                        <label for="checkbox1">Cliente</label>
-                        <br>
-                        <input type="checkbox" name="check" id="checkbox2" value="trabalhador" checked>
-                        <label for="checkbox1">Trabalhador</label>
-                        <br>
-                    </fieldset>
-                    <input type="checkbox" name="check" id="checkbox1" value="termos" checked>
-                    <label for="checkbox1">Li e Aceito os Termos e Regulamentos</label>
+                <form method="post" action="cadastrar-enquete.php">
+                    <label for=""><p>Selecione seu tipo de serviço:</p></label>
                     <br>
-                </form>
+                    <select name="servicos">
+                    <option value="cli">Cliente</option>
+                    <option value="cos">Costureira(o)</option>
+                    <option value="pedr">Ajudante de obras</option>
+                    <option value="pint">Pintor(a)</option>
+                    <option value="dia">Diarista</option>
+                    <option value="marc">Marceneiro(a)</option>
+                    <option value="elet">Eletricista</option>
+                    </select>
+                    </form>
+                    <div class="checkbox"><input type="checkbox" name="termos" id="termos">Aceito os <span>Termos e Serviços</span></div>
                 <button class="btn-login">Cadastrar</button>
                 <p><a href="">Já tenho uma conta</a></p>
             </div>
