@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background: #F5EF52;
+}
+
+.tela-principal {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+}
+
+.tela-esquerda img{
+    max-width:250px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+}
+
+.tela-direita{
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #4b4848;
+}
+
+.card-login > h1{
+    color: #F5EF52;
+    font-weight: 800;
+    margin: 0;
+}
+
+.card-login > button{
+    margin-top: 8%;
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 6%;
+    margin: 10px;
+}
+
+.textfield > input{
+    width: 100%;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 12pt;
+    box-shadow: 0px 5px 20px #adadad;
+    outline: none;
+    box-sizing: border-box;
+    margin-top: 8px;
+}
