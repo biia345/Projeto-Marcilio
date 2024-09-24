@@ -3,7 +3,7 @@ body {
     background: #F5EF52;
 }
 
-.tela-esquerda > h1 {
+.tela-esquerda>h1 {
     line-height: 3rem;
 }
 
@@ -13,12 +13,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction:row;
+    flex-direction: row;
 }
 
-.tela-esquerda img{
-    max-width:300px;
-    max-height:300px;
+.tela-esquerda img {
+    max-width: 300px;
+    max-height: 300px;
     display: flex;
     width: auto;
     margin-right: 1rem;
@@ -31,7 +31,7 @@ body {
     margin-right: 5rem;
 }
 
-.tela-direita{
+.tela-direita {
     width: 30vw;
     height: 100vh;
     display: flex;
@@ -39,8 +39,9 @@ body {
     align-items: center;
 }
 
-.card-login{
+.card-login {
     width: 100%;
+    height: 32rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,25 +67,25 @@ body {
     height: 24.7rem;
 }
 
-.card-login > h1{
+.card-login>h1 {
     color: #fff700;
     font-weight: 800;
     margin: 0;
 }
 
-.card-login > button{
+.card-login>button {
     margin-top: 8%;
 }
 
-.textfield{
+.textfield {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding-top: 6%;
+    padding-top: 2%;
 }
 
-.textfield > input{
+.textfield>input {
     width: 23rem;
     height: 3.6rem;
     border-radius: 13px;
@@ -99,19 +100,18 @@ body {
     margin-top: 8px;
 }
 
- .tela-principal button {
+.tela-principal button {
     border: none;
     width: 100%;
     border-radius: 10px;
     background-color: #ffef42;
-    height: 4rem;
     font-weight: 700;
-    font-size: 2.1rem;
-    
+    font-size: 1.7rem;
+
 }
 
 .tela-principal p {
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 1.4rem;
     font-weight: 700;
 }
@@ -121,3 +121,6 @@ body {
     color: #4b4848;
 }
 
+fieldset {
+    border: none;
+}

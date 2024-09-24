@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tela-cadastro.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="tela-principal">
+        <div class="tela-esquerda">
+            <img src="./icon-biko-removebg-preview.png" alt="">
+            <h1>Junte-se <br>
+                a Biko!</h1>
+        </div>
+        <div class="tela-direita">
+            <div class="card-login">
+                <h1>BIKO</h1>
+                <div class="textfield">
+                    <input type="text" name="nome" placeholder="Digite seu nome completo">
+                </div>
+                <div class="textfield">
+                    <input type="text" name="cpf" placeholder="Digite seu CPF">
+                </div>
+                <div class="textfield">
+                    <input type="mail" name="email" placeholder="Digite seu e-mail ou Telefone">
+                </div>
+                <div class="textfield">
+                    <input type="password" name="cpf" placeholder="Digite sua Senha">
+                </div>
+                <form action="#">
+                    <fieldset>
+                        <legend>Selecione seu tipo de serviço:</legend>
+                        <input type="checkbox" name="check" id="checkbox1" value="Cliente" checked>
+                        <label for="checkbox1">Cliente</label>
+                        <br>
+                        <input type="checkbox" name="check" id="checkbox2" value="trabalhador" checked>
+                        <label for="checkbox1">Trabalhador</label>
+                        <br>
+                    </fieldset>
+                    <input type="checkbox" name="check" id="checkbox1" value="termos" checked>
+                    <label for="checkbox1">Li e Aceito os Termos e Regulamentos</label>
+                    <br>
+                </form>
+                <button class="btn-login">Cadastrar</button>
+                <p><a href="">Já tenho uma conta</a></p>
+            </div>
+            <div class="card-shadow">.</div>
+        </div>
+    </div>
+</body>
+
+</html>
