@@ -2,12 +2,26 @@ body {
     background-color: #F5EF52;
 }
 
-element {
-    right: 10%;
-    left: 10%;
+.container-shadow {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 92%;
+    height: 100%;
+    justify-content: center;
+    position: fixed;
+    border-radius: 20px;
+    border: none;
+    margin-left: 3.3rem;
+    background-color: white;
+    background-color: #46434360;
+    z-index: -1;
   }
 
-.container-principal {
+  .container-principal {
+    top: 0px;
+    left: 0px;
+    right: 0px;
     width: 90%;
     height: 100%;
     justify-content: center;
@@ -15,6 +29,21 @@ element {
     border-radius: 20px;
     border: none;
     background-color: white;
-    margin-left: 5rem;
-    padding: auto;
+    margin-left: 4.1rem;
+  }
+
+  .container-principal textarea {
+    width: 50%;
+    outline: none;
+    border-radius: 20px;
+    background: transparent;
+    text-align: center;
+    margin-left: 16.2rem;
+    border: 1.4px solid black;
+    margin-top: 0.8rem;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-right: 15rem;
+    padding-left: -2rem;
+    resize: none;
   }

@@ -1,10 +1,15 @@
 body {
     margin:60px 0px 60px 0px;
     background: #F5EF52;
+    background-image: url(./background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    max-height: max-content;
 }
 
 .tela-esquerda>h1 {
     line-height: 3rem;
+    color: white;
 }
 
 .tela-principal {
