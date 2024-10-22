@@ -4,19 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="tela-cadastro.css">
-    <title>Cadastro</title>
+    <link rel="stylesheet" href="../css/tela-cadastro.css">
+    <link rel="icon" type="image/x-icon" href="../img/icon-biko-removebg-preview.png">
+    <title>Crie sua conta</title>
 </head>
 
 <body>
-    <div class="tela-principal">
-        <div class="tela-esquerda">
-            <img src="./icon-biko-removebg-preview.png" alt="">
+    <div class="main">
+        <div class="leftScreen">
+            <img src="../img/biko.png" alt="">
             <h1>Junte-se <br>
                 a Biko!</h1>
         </div>
-        <div class="tela-direita">
-            <div class="card-login">
+        <div class="rightScreen">
+            <div class="cardLogin">
                 <h1>BIKO</h1>
                 <div class="textfield">
                     <input type="text" name="nome" placeholder="Digite seu nome completo">
@@ -31,7 +32,7 @@
                     <input type="password" name="cpf" placeholder="Digite sua Senha">
                 </div>
                 <form method="post" action="cadastrar-enquete.php">
-                    <label for=""><p>Selecione seu tipo de serviço:</p></label>
+                    <label for=""><p>Selecione sua profissão:</p></label>
                     <br>
                     <select name="servicos">
                     <option value="cli">Cliente</option>
@@ -45,7 +46,7 @@
                     </form>
                     <div class="checkbox"><input type="checkbox" name="termos" id="termos">Aceito os <span>Termos e Serviços</span></div>
                 <button class="btn-login">Cadastrar</button>
-                <p><a href="./tela-login.html">Já tenho uma conta</a></p>
+                <p><a href="./tela-login.html">Já tenho uma conta.</a></p>
             </div>
             <div class="card-shadow">.</div>
         </div>

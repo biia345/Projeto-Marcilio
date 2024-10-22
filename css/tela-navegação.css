@@ -1,0 +1,372 @@
+/* Estilos globais */
+body {
+  background-color: #F5EF52;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ########## Menu Lateral ########## */
+.containerShadow {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(70, 67, 67, 0.4);
+  z-index: -1;
+}
+
+.main {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: calc(114% - 200px);
+  min-height: 100vh;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.sidebar {
+  border-radius: 15%;
+  width: 7rem;
+  position: fixed;
+  height: 100%;
+  background-color: #fff;
+  padding-top: 1rem;
+  border-right: 2px solid #ccc;
+}
+
+.center ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.center a {
+  color: black;
+  display: block;
+  text-align: center;
+}
+
+.center li {
+  margin: 0;
+  padding: 1.5rem;
+}
+
+.center h2 {
+  text-align: center;
+}
+
+.center hr {
+  margin: 0 15px;
+  border-color: #ccc;
+}
+
+.bi-person-circle {
+  font-size: 4rem;
+}
+
+.bi-search, .bi-chat-left, .bi-gear, .bi-bell-fill, .bi-plus-square-dotted {
+  font-size: 2rem;
+}
+
+/* ########## Gerador de Postagens ########## */
+.writePost {
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.writePost textarea {
+  width: 65%;
+  margin-top: 1.1rem;
+  margin-left: 10rem;
+  height: 25px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 1.2rem;
+  outline: none;
+  resize: none;
+}
+
+.buttons {
+  display: flex;
+  margin-left: 9rem;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #464343;
+  color: white;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.buttons button:hover {
+  background-color: #333;
+}
+
+/* ########## Template de Postagem ########## */
+.postContainer {
+  width: 70%;
+  margin-left: 9rem;
+  padding: 1.5rem;
+  border: 2px solid #464343;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.postHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.postHeader img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.postHeader h4 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.postHeader p {
+  margin-top: 60px;
+  left: 21rem;
+  position: absolute;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.postContent p {
+  font-size: 1.6rem;
+  margin: 1rem 0;
+}
+
+.postContent img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+
+.postActions {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.postActions .likes,
+.postActions .comments {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.postActions a i {
+  font-size: 3rem;
+  margin-right: 0.5rem;
+}
+
+/* ########## Novo Conteúdo Gerado ########## */
+.new-container {
+  width: 70%;
+  margin: 1rem auto;
+  padding: 1.5rem;
+  border: 2px solid #464343;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.new-container h4 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.new-container img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+
+/* ########## Postagens ########## */
+.container {
+  width: 70%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 2px solid #464343;
+  border-radius: 20px;
+  background-color: #f9f9f9;
+}
+
+.inner-element {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container-name,
+.content-input,
+.image-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1.1rem;
+}
+
+.content-input {
+  resize: none;
+}
+
+.close-button {
+  border: none;
+  background-color: transparent;
+  font-size: 1.5rem;
+  float: right;
+  cursor: pointer;
+  color: #ff5c5c;
+}
+
+.post-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* ########## Media Queries ########## */
+
+/* Telas grandes - até 1200px */
+@media screen and (max-width: 1200px) {
+  .main {
+    width: calc(107% - 100px);
+  }
+
+  .writePost textarea {
+    width: 75%;
+    margin-top: 2rem;
+    margin-left: 8rem;
+  }
+
+  .buttons {
+    width: 60%;
+    margin-left: 12.5rem;
+  }
+
+  .postContainer,
+  .new-container {
+    width: 72%;
+    margin-left: 8.5rem;
+  }
+}
+
+/* Tablets e telas intermediárias - até 768px */
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 5rem;
+    margin-right: 7rem;
+  }
+
+  .main {
+    width: calc(112.5% - 5rem);
+    margin-left: 0;
+  }
+
+  .writePost textarea {
+    width: 70%;
+    margin-left: 7rem;
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .buttons {
+    width: 80%;
+    position: relative;
+    margin-right: 7rem;
+  }
+
+  .buttons #addElementButton {
+    margin-right: 10px;
+  }
+
+  .postContainer,
+  .new-container {
+    width: 75%;
+    margin-left: 5.5rem;
+    padding: 1rem;
+  }
+
+  .postHeader img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .postHeader h4 {
+    font-size: 1.1rem;
+  }
+
+  .postContent p {
+    font-size: 1.4rem;
+  }
+
+  .postActions a i {
+    font-size: 2rem;
+  }
+}
+
+/* Celulares - até 600px */
+@media screen and (max-width: 600px) {
+  .sidebar {
+    width: 5rem;
+    margin-right: 7rem;
+  }
+
+  .main {
+    width: calc(120% - 5rem);
+  }
+
+  .writePost textarea {
+    width: 100%;
+    margin-left: 5rem;
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .buttons {
+    position: relative;
+    margin-right: 6rem;
+  }
+
+  .buttons #remove {
+    margin-left: 3.5rem;
+  }
+
+  .postContainer,
+  .new-container {
+    width: 65%;
+    margin-left: 6.5rem;
+    padding: 1rem;
+  }
+
+  .postHeader img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .postHeader h4 {
+    font-size: 1.1rem;
+  }
+
+  .postContent p {
+    font-size: 1.4rem;
+  }
+
+  .postActions a i {
+    font-size: 2rem;
+  }
+}
