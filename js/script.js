@@ -79,3 +79,30 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+
+
+//###### SCRIPT TEMPORARIO PARA FILTRAGEM DE PRECO ########//
+
+
+function updateMinValue(val) {
+    document.getElementById("minPrice").innerText = val;
+}
+
+function updateMaxValue(val) {
+    document.getElementById("maxPrice").innerText = val;
+}
+
+document.getElementById("applyFilter").addEventListener("click", function() {
+    var minPrice = document.getElementById("ps").value;
+    var maxPrice = document.getElementById("pe").value;
+    
+    if (parseFloat(minPrice) > parseFloat(maxPrice)) {
+        alert("O valor mínimo não pode ser maior que o máximo!");
+        return;
+    }
+
+    // Exibe o filtro aplicado
+    var resultado = `Filtrando itens entre R$ ${minPrice} e R$ ${maxPrice}`;
+    document.getElementById("filteredResult").innerHTML = resultado;
+});
