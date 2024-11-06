@@ -1,166 +1,166 @@
 /* Estilos globais */
 body {
-    background-color: #F5EF52;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* ########## Menu Lateral ########## */
-  .containerShadow {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(70, 67, 67, 0.4);
-    z-index: -1;
-  }
-  
-  .main {
-    margin-left: 5px;
-    margin-right: 5px;
-    width: calc(114% - 200px);
-    min-height: 100vh;
-    background-color: white;
-    border-radius: 20px;
-  }
-  
-  .sidebar {
-    border-radius: 15%;
-    width: 7rem;
-    position: fixed;
-    height: 100%;
-    background-color: #fff;
-    padding-top: 1rem;
-    border-right: 2px solid #ccc;
-  }
-  
-  .center ul {
-    padding-left: 0;
-    list-style: none;
-  }
-  
-  .center a {
-    color: black;
-    display: block;
-    text-align: center;
-  }
-  
-  .center li {
-    margin: 0;
-    padding: 1.5rem;
-  }
-  
-  .center h2 {
-    text-align: center;
-  }
-  
-  .center hr {
-    margin: 0 15px;
-    border-color: #ccc;
-  }
-  
-  .bi-person-circle {
-    font-size: 4rem;
-  }
-  
-  .bi-search, .bi-chat-left, .bi-gear, .bi-bell-fill, .bi-plus-square-dotted {
-    font-size: 2rem;
-  }
-  
-  /* ########## Gerador de Postagens ########## */
+  background-color: #F5EF52;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ########## Menu Lateral ########## */
+.containerShadow {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(70, 67, 67, 0.4);
+  z-index: -1;
+}
+
+.main {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: calc(114% - 200px);
+  min-height: 100vh;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.sidebar {
+  border-radius: 15%;
+  width: 7rem;
+  position: fixed;
+  height: 100%;
+  background-color: #fff;
+  padding-top: 1rem;
+  border-right: 2px solid #ccc;
+}
+
+.center ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.center a {
+  color: black;
+  display: block;
+  text-align: center;
+}
+
+.center li {
+  margin: 0;
+  padding: 1.5rem;
+}
+
+.center h2 {
+  text-align: center;
+}
+
+.center hr {
+  margin: 0 15px;
+  border-color: #ccc;
+}
+
+.bi-person-circle {
+  font-size: 4rem;
+}
+
+.bi-search, .bi-chat-left, .bi-gear, .bi-bell-fill, .bi-plus-square-dotted {
+  font-size: 2rem;
+}
+
+/* ########## Gerador de Postagens ########## */
 .writePost {
-  margin-bottom: 2rem;
-  display: flex;
+margin-bottom: 2rem;
+display: flex;
 }
 
 .writePost textarea {
-  margin-top: 3rem;
-  margin: 1rem 2rem 0 26.5rem;
-  height: 25px;
-  border: 2px solid black;
-  border-radius: 20px;
-  padding: 20px;
-  font-size: 1.2rem;
-  outline: none;
-  resize: none;
+margin-top: 3rem;
+margin: 1rem 2rem 0 26.5rem;
+height: 25px;
+border: 2px solid black;
+border-radius: 20px;
+padding: 20px;
+font-size: 1.2rem;
+outline: none;
+resize: none;
 }
 
 .buttons {
-  display: flex;
-  margin-left: 9rem;
-  margin-bottom: 20px;
+display: flex;
+margin-left: 9rem;
+margin-bottom: 20px;
 }
 
 .buttons button {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 10px;
-  background-color: #464343;
-  color: white;
-  cursor: pointer;
-  font-size: 1.1rem;
+padding: 10px 20px;
+border: none;
+border-radius: 10px;
+background-color: #464343;
+color: white;
+cursor: pointer;
+font-size: 1.1rem;
 }
 
 .buttons button:hover {
-  background-color: #333;
+background-color: #333;
 }
 
-  /* ########## Filtro do Catalogo ########## */
+/* ########## Filtro do Catalogo ########## */
 
-  .content-filter {
-    margin-left: 6rem;
-    height:80vh;
-    margin-right: 62rem;
-    text-align: center;
-  }
+.content-filter {
+  margin-left: 6rem;
+  height:80vh;
+  margin-right: 62rem;
+  text-align: center;
+}
 
-  .services {
-    border: 1px solid black;
-    margin: 0 40px 20px 40px;
-    padding: 5px;
-    width: 75%;
-    border-radius: 20px;
-    padding-bottom: 10px;
-  }
+.services {
+  border: 1px solid black;
+  margin: 0 40px 20px 40px;
+  padding: 5px;
+  width: 75%;
+  border-radius: 20px;
+  padding-bottom: 10px;
+}
 
-  .prices {
-    border: 1px solid black;
-    margin: 5px 40px 20px 40px;
-    padding: 5px;
-    width: 75%;
-    border-radius: 20px;
-  }
+.prices {
+  border: 1px solid black;
+  margin: 5px 40px 20px 40px;
+  padding: 5px;
+  width: 75%;
+  border-radius: 20px;
+}
 
-  .loc {
-    border: 1px solid black;
-    margin: 5px 40px 20px 40px;
-    padding: 5px;
-    width: 75%;
-    padding-bottom: 10px;
-    border-radius: 20px;
-  }
+.loc {
+  border: 1px solid black;
+  margin: 5px 40px 20px 40px;
+  padding: 5px;
+  width: 75%;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
 
-  /* .filter-sidebar {
-    width: 25%;
-    height: 100vh;
-    padding: 50px 0;
-    background-color: #ddd;
-    position: fixed;
-  } */
+/* .filter-sidebar {
+  width: 25%;
+  height: 100vh;
+  padding: 50px 0;
+  background-color: #ddd;
+  position: fixed;
+} */
 
-  button {
-    width: 70%;
-    border: none;
-    font-family: 'Roboto';
-    font-size: 1.4rem;
-    border-radius: 15%;
-    background-color: #fff700;
-    color: #333;
-  }
+button {
+  width: 70%;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 1.4rem;
+  border-radius: 15%;
+  background-color: #fff700;
+  color: #333;
+}
 
-  button:hover {
-    background-color: white;
-    border: 2px solid #F5EF52;
-    transition: 0.1s ease-in-out;
-  }
+button:hover {
+  background-color: white;
+  border: 2px solid #F5EF52;
+  transition: 0.1s ease-in-out;
+}
